@@ -1,0 +1,16 @@
+.home-logo {
+  background-image: url('../assets/logo.svg');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  transition: all 0.2s;
+  filter: drop-shadow(3px 3px 3px #333);
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+body {
+  background-color: rgba(238, 238, 238, 0.897);
+}
